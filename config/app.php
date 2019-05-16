@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Intervention\Image\ImageServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -230,6 +231,7 @@ return [
          * Package Aliases...
          */
         'GraphQL' => Nuwave\Lighthouse\Support\Facades\GraphQLFacade::class,
+        'Image' => Intervention\Image\Facades\Image::class,
     ],
 
 ];
