@@ -36,6 +36,6 @@ class CreateCompanySocialNetworkTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('b_company_social_networks');
+        Schema::dropIfExists('b_company_social_network');
     }
 }
