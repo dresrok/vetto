@@ -1,0 +1,10 @@
+type Office {
+    office_id: ID!
+    office_name: String!
+    office_email: String
+    office_open_from: String
+    office_open_to: String
+    office_city: String!
+    company: Company! @belongsTo
+    users: [User!]! @belongsToMany
+}
